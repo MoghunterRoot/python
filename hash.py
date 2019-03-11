@@ -18,7 +18,7 @@ def hashpassSHA_1(clear_password):
 	print("--------------------- Your Hash ----------------------\n")
 	print("password: " + str(clear_password))
 	print("hash: " + str(hashed_password))
-	print("\n-------------------- End Script --------------------\n")
+	print("\n----------------------------------------------------\n")
 	return 
 
 	
@@ -33,7 +33,6 @@ while init  == True:
 			hashpassMD5(my_password)
 	elif choice != "1" and choice != "2":
 		print("Nous n'avons pas compris votre choix")	
-		break		
 	elif choice == "2":
 		my_password = input("Entrez le mots de passe a hasher: ").encode() 
 		print("\n")
